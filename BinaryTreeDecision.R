@@ -1,5 +1,5 @@
 
-mydata=read.csv("C:/Users/Jeanne/Desktop/Mast 679 - H/term project/churn.csv")
+mydata=read.csv("churn.csv")
 
 
 #libraries
