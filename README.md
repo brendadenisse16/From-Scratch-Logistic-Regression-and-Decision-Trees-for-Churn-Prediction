@@ -1,6 +1,9 @@
 # Statistical-Learning
 
 MAST 679H Statistical Learning Term Project  (Winter 2021)
+Professor : Dr. Frédéric Godin 
+Concordia University
+
 
 Given the importance of customers as the most valuable organization assets, customer retention seems essential and a fundamental requirement for any organization. Banks are
 no exception to this rule. In this project, two statistical learning methods were applied to build a churn prediction model using data from a real bank, obtained through Kaggle.
