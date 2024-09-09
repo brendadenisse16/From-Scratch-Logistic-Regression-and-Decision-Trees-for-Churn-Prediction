@@ -13,7 +13,7 @@ I implemented two statistical learning algorithms **from scratch** in R, without
 These models were fully coded from the ground up, showcasing the detailed mathematical understanding and coding skills behind each technique.
 
 ## Performance Metrics
-To evaluate the models, we used the **Area Under the Receiver Operating Characteristic (AUROC)** curve:
+To evaluate the models, I used the **Area Under the Receiver Operating Characteristic (AUROC)** curve:
 - Logistic Regression performed better overall.
 - Decision Trees offered higher interpretability, making them useful for marketing strategy insights.
 
