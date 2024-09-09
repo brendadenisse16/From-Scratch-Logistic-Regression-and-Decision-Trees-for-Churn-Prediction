@@ -1,15 +1,30 @@
-# Statistical-Learning
+# Customer Churn Prediction using Statistical Learning
 
-MAST 679H Statistical Learning Term Project  (Winter 2021)
+## Overview
+This project focuses on predicting customer churn for bank customers using statistical learning techniques. Customer retention is crucial for organizational success, especially in the financial sector. The data used in this project comes from an actual bank dataset obtained via [Kaggle](https://www.kaggle.com/).
 
-Professor : Dr. Frédéric Godin - Concordia University
+The goal is to build a predictive model that helps banks identify which customers are likely to churn, allowing them to implement proactive retention strategies.
 
-Title: Predicting Churn for Bank Customers
+## Algorithms Used
+I implemented two statistical learning algorithms **from scratch** in R, without using any built-in machine learning functions:
+1. **Logistic Regression**: A widely used algorithm for binary classification problems.
+2. **Decision Trees**: A model that provides high interpretability and is particularly useful for understanding customer behavior.
 
-Given the importance of customers as the most valuable organizational assets, customer retention seems essential and fundamental for any organization. Banks are
-no exception to this rule. This project applied two statistical learning methods to build a churn prediction model using data from an actual bank obtained through Kaggle.
+These models were fully coded from the ground up, showcasing the detailed mathematical understanding and coding skills behind each technique.
 
-The test used to evaluate the performance of the algorithms used is AUROC. The logistic Regression algorithm performs better than the Decision Tree. 
-However, decision tree-based models can provide models with high interpretability, which can help guide banks in the construction of marketing strategies.
+## Performance Metrics
+To evaluate the models, we used the **Area Under the Receiver Operating Characteristic (AUROC)** curve:
+- Logistic Regression performed better overall.
+- Decision Trees offered higher interpretability, making them useful for marketing strategy insights.
 
-The code was made in R Studio, and each applied method was made from scratch.
+## Project Structure
+- **/BinaryTreeDecision.R**: R script implementing the Decision Tree model from scratch.
+- **/LogisticRegression.R**: R script implementing Logistic Regression from scratch.
+- **/churn.csv**: The dataset used for training and testing the models.
+
+## Setup and Usage
+To run the project, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/brendadenisse16/Statistical-Learning.git
